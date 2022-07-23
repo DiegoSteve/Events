@@ -1,2 +1,68 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Landing page</title>
+    <script src="/script.js"></script>
+
+    
+</head>
+<body>
+<header>
+    <%= render 'shared/event_navbar' %>
+    <nav>
+        <img src="/party.png" alt="" class="image_nav">
+        <p class="text_nav">Sign up</p>
+        <p class="text_nav">Login</p>
+        <p class="text_nav">Eventos Públicos</p>
+    </nav>
+</header>
+<main>
+    <section class="section_main">
+        <section class="section_a">
+            <div class="image_left">
+                <div class="image_one">
+                    <img src="" alt="" name="slider">
+                </div>
+                <div class="image_second">
+                    <img src="" alt="" name="slider2">
+                </div>
+            </div>
+            <div class="image_right">
+                <img src="" alt="" name="slider3">
+            </div>
+        </section>
+        <section class="section_b">
+            <section class="section_text">
+                <div class="title">
+                    <h2>You're Invited</h2>
+                </div>
+                <div class="option">
+                    <div class="crear">
+                        <img src="/palomita.jpg" alt="" class="palomita">
+                        <a href="">Crear una fiesta</a>
+                    </div>
+                    <div class="invitado">
+                        <img src="/palomita.jpg" alt="" class="palomita">
+                        <a href="">Estoy invitado?</a>
+                    </div>
+                </div>
+                <div class="image_third">
+                    <img src="" alt="" name="slider4">
+                </div>
+            </section>
+            <section class="section_last">
+                <img src="" alt="" name="slider5">
+            </section>
+        </section>
+    </section>
+</main>
+<footer>
+    <p>Events! is your events parner...</p>
+    <p>18/julio/2022</p>
+</footer>
+</body>
+</html>
